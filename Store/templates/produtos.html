@@ -19,7 +19,9 @@
         </tr>
         {% for prod in produtos %}
         <tr>
-            <td>{{ prod.nome }}</td>
+            <td><a href="/produto_detalhes/{{ prod.id }}">
+                {{ prod.nome }}
+            </a></td>
             <td>{{ prod.categoria }}</td>
             <td>R$ {{ prod.preco}}</td>
             <td>{{ prod.estoque}}</td>
