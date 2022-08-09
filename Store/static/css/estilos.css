@@ -1,0 +1,15 @@
+/* seletores */
+/* seletor universal */
+* {
+    color:darkorchid;
+    background-color: bisque;
+}
+
+/* seletor por elemento (tag) */
+h1 {
+    color:indigo
+}
+h3 {
+    color:rgb(187, 12, 94)
+}
+
