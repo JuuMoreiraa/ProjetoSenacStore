@@ -1,15 +1,40 @@
 /* seletores */
 /* seletor universal */
 * {
-    color:darkorchid;
+    color:sienna;
     background-color: bisque;
 }
 
 /* seletor por elemento (tag) */
 h1 {
-    color:indigo
+    color:rgb(92, 12, 12);
 }
 h3 {
-    color:rgb(187, 12, 94)
+    color:rgb(136, 78, 25);
 }
 
+/* Seletor por id */
+#topo {
+    border-bottom: 2px solid lightgoldenrodyellow;
+}
+
+
+#topo ul {
+    display: block;
+    float: right;
+}
+
+#topo ul li{
+    display: block;
+    float: left;
+    padding: 2px 10px;
+    border: 1px solid bisque;
+    background-color:lightgoldenrodyellow;
+    color: rgba(68, 20, 6, 0.904);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+#topo ul li:hover {
+    color:darksalmon;
+}
