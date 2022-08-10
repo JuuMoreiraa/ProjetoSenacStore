@@ -28,13 +28,22 @@ h3 {
     display: block;
     float: left;
     padding: 2px 10px;
-    border: 1px solid bisque;
-    background-color:lightgoldenrodyellow;
+    border: 1px solid lightgoldenrodyellow;
+    background-color: lightgoldenrodyellow;
     color: rgba(68, 20, 6, 0.904);
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-large;
 }
 
-#topo ul li:hover {
+/*#topo ul li:hover {
     color:darksalmon;
+}*/
+
+#topo a {
+    text-decoration: none;
+    color: rgba(68, 20, 6, 0.904);
+}
+
+#topo a:hover{
+    color: darksalmon;
 }

@@ -6,7 +6,7 @@ from Store.models import Produto
 
 # Create your views here.
 def index(request):
-    meu_nome = 'Beltrano da Costa'
+    meu_nome = 'Fulano Xyyz'
     sexo = 'M'
     context = {
         'nome': meu_nome, 
@@ -50,3 +50,9 @@ def produto_detalhe (request, id):
                 'produto' : produto
         }
     return render (request,'produto_detalhes.html', context)
+
+def institucional(request):
+    return render(request, 'institucional.html')
+
+def contato(request):
+    return render(request, 'contato.html')
